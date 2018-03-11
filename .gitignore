@@ -1,0 +1,3 @@
+*.json
+.gulp-scss-cache/
+node_modules/

@@ -1,0 +1,91 @@
+body {
+    font-family: AleksandraCRegular;
+    background: #18222b url(../img/1.jpg) no-repeat;
+    background-position: top center;
+
+    .back {
+        padding-top: 40px;
+        height: 1080px;
+    }
+
+    .back2 {
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .back3 {
+        padding-top: 200px;
+        height: 1080px;
+        color: white;
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+    .navbar {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 130px;
+        margin-bottom: 200px;
+        a {
+            color: aliceblue;
+            font-size: 25px;
+            text-shadow: 2px 2px 2px black, 0 0 1em white;
+        }
+    }
+
+
+
+    .grey {
+        background-color: rgba(50, 50, 50, 0.6);
+        height: 300px;
+        position: relative;
+        width: 100%;
+        margin-bottom: 210px;
+        padding: 10px;
+        h1 {
+            color: white;
+            margin: 0;
+            position: absolute;
+            /* 2 */
+            top: 50%;
+            /* 3 */
+            -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+        }
+    }
+
+
+
+    .table {
+        background-color: rgba(100, 100, 100, 0.4);
+        text-align: center;
+        color: white;
+    }
+
+    #map {
+        height: 300px;
+    }
+
+    .contWrap {
+        position: relative;
+    }
+
+    .contacts {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .mainTex {
+        text-shadow: 2px 2px 2px black, 0 0 1em white;
+    }
+
+    hr {
+        border-color: white;
+        margin: 2px;
+    }
+
+
+}

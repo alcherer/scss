@@ -1,0 +1,58 @@
+body {
+  font-family: AleksandraCRegular;
+  background: #18222b url(../img/1.jpg) no-repeat;
+  background-position: top center; }
+  body .back {
+    padding-top: 40px;
+    height: 1080px; }
+  body .back2 {
+    padding-top: 40px;
+    height: auto; }
+  body .back3 {
+    padding-top: 200px;
+    height: 1080px;
+    color: white; }
+  body .logo {
+    height: 100px; }
+  body .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 130px;
+    margin-bottom: 200px; }
+    body .navbar a {
+      color: aliceblue;
+      font-size: 25px;
+      text-shadow: 2px 2px 2px black, 0 0 1em white; }
+  body .grey {
+    background-color: rgba(50, 50, 50, 0.6);
+    height: 300px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 210px;
+    padding: 10px; }
+    body .grey h1 {
+      color: white;
+      margin: 0;
+      position: absolute;
+      /* 2 */
+      top: 50%;
+      /* 3 */
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%); }
+  body .table {
+    background-color: rgba(100, 100, 100, 0.4);
+    text-align: center;
+    color: white; }
+  body #map {
+    height: 300px; }
+  body .contWrap {
+    position: relative; }
+  body .contacts {
+    position: absolute;
+    bottom: 0; }
+  body .mainTex {
+    text-shadow: 2px 2px 2px black, 0 0 1em white; }
+  body hr {
+    border-color: white;
+    margin: 2px; }
